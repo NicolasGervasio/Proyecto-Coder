@@ -1,0 +1,84 @@
+/* Body */
+body {
+    background-color: beige;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: #612a3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ header div{
+    display: flex;
+    flex-direction: row;
+ }
+header nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+ }
+a{
+    color: white;
+    margin: 10px;
+}
+main {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 236, 236);
+    background-color: #612a3b;
+
+}
+
+.newsLetter {
+    color: black;
+}
+
+.CenterContacto {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.Table {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+
+/*
+.color1 {color: #612a3b;}
+.color2 {color: #803a49;}
+.color3 {color: #b1545f;}
+.color4 {color: #f77c7e;}
+.color5 {color: #ffb2a4;}
